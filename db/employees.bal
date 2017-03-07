@@ -8,7 +8,7 @@ import ballerina.lang.strings;
 service Employees {
 	string dbURL = "jdbc:oracle:thin:@localhost:49161/XE";
 	string username = "vatrox";
-	string password = "oracle101";
+	string password = "vatrox";
 	map propertiesMap = {"jdbcUrl":dbURL, "username":username, "password":password
 	}
 	;
